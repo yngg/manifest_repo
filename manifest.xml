@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote fetch="https://github.com/yngg" name="yn-github" review="" />
+    
+    <default remote="yn-github" revision="master"/>
+    
+    <!-- List all the repositories you want to fetch -->
+    <!-- "name"     git repository's name on hosting server
+         "remote"   the remote host from above (if not the default)
+         "revision" commitish to checkout (if not the default)
+         "path"     directory where git repository gets cloned/synced 
+    -->   
+    <project path="yngg/Blocbox" remote="yn-github" name="Blocbox" />
+    <!--
+    <project path="poky" remote="yocto" name="poky" revision="eb4a134a60e3ac26a48379675ad6346a44010339" />  
+    <project path="meta-qt5" remote="qt5" name="meta-qt5" revision="adeca0db212d61a933d7952ad44ea1064cfca747" />
+    
+    <project path="meta-ivi" name="meta-ivi" revision="master" />
+    <project path="meta-genivi-demo" name="meta-genivi-demo" revision="master" />
+    <project path="meta-raspberry"   name="meta-raspberry" revision="master" />
+    <project path="buildenv"   name="buildenv" revision="master" />
+      -->
+</manifest>
