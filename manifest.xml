@@ -11,6 +11,7 @@
          "path"     directory where git repository gets cloned/synced 
     -->   
     <project path="yngg/Blocbox" remote="yn-github" name="Blocbox" />
+    <project path="yngg/ski_online_shop" remote="yn-github" name="ski_online_shop" />
     <!--
     <project path="poky" remote="yocto" name="poky" revision="eb4a134a60e3ac26a48379675ad6346a44010339" />  
     <project path="meta-qt5" remote="qt5" name="meta-qt5" revision="adeca0db212d61a933d7952ad44ea1064cfca747" />
